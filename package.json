@@ -4,7 +4,7 @@
   "description": "This is a javascript unit testing exersise using jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch-all --coverage"
   },
   "repository": {
     "type": "git",

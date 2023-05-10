@@ -1,7 +1,6 @@
 const stringLength = require('./index');
 const reverseString = require('./reverseString');
 
-
 describe('String Testing', () => {
   test('it should be the the number of charachter when the string supplies', () => {
     // Arrange
@@ -35,6 +34,8 @@ describe('String Testing', () => {
     // Assert
     expect(reverse).toBe('olleH');
   })
+
+  // capitalixed first char test
 })
 
 

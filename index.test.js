@@ -1,6 +1,6 @@
 const stringLength = require('./index');
 const reverseString = require('./reverseString');
-
+const capitalizer = require('./capitalizer');
 describe('String Testing', () => {
   test('it should be the the number of charachter when the string supplies', () => {
     // Arrange
@@ -36,6 +36,17 @@ describe('String Testing', () => {
   })
 
   // capitalixed first char test
+  test('the first char should return capital letter ', () => {
+    // Arrange
+    const str = "hello";
+  
+    // Act
+    const capital = capitalizer(str);
+  
+    // Assert
+    expect(capital).toBe('H');
+  })
+
 })
 
 

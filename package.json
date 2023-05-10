@@ -1,0 +1,23 @@
+{
+  "name": "javascript-unit-testing-first-with-jest",
+  "version": "1.0.0",
+  "description": "This is a javascript unit testing exersise using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-tes/JavaScript-Unit-Testing-first-with-Jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-tes/JavaScript-Unit-Testing-first-with-Jest/issues"
+  },
+  "homepage": "https://github.com/Paul-tes/JavaScript-Unit-Testing-first-with-Jest#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
